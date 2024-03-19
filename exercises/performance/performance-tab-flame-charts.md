@@ -63,11 +63,11 @@ the values shown in the `Summary` section.
 ## Find MovieListComponent bootstrap
 
 In this exercise I want you to use the `search` function in order to search for the
-time when the `MovieListComponent` is getting bootstrapped.
+time when the `MovieListPageComponent` is getting bootstrapped.
 
 Hit `Ctrl + F` in order to conduct a search in the flame charts. 
 
-Find and report the point in time, when `MovieListComponent` is getting bootstrapped.
+Find and report the point in time, when `MovieListPageComponent` is getting bootstrapped.
 
 <details>
   <summary>Show Help</summary>
@@ -117,4 +117,4 @@ multiple recordings directly next to each other.
 In this exercise you can now investigate the flame charts on your own and try to find suspicious tasks that
 potentially could be reduced, moved or erased completely.
 
-Please not down your findings, so we can discuss them afterwards :-).
+Please note down your findings, so we can discuss them afterwards :-).
