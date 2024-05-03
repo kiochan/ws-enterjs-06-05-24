@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ws-perf-ng-conf-24",
+            "outputPath": "dist/ws-enterjs-06-05-24",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [

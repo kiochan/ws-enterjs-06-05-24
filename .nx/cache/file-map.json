@@ -1,0 +1,1110 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.3.0",
+    "@angular/common": "^17.3.0",
+    "@angular/compiler": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "@angular/forms": "^17.3.0",
+    "@angular/platform-browser": "^17.3.0",
+    "@angular/platform-browser-dynamic": "^17.3.0",
+    "@angular/router": "^17.3.0",
+    "@push-based/ngx-fast-svg": "^18.0.0",
+    "@rx-angular/cdk": "^17.0.1",
+    "@rx-angular/state": "^17.0.1",
+    "@rx-angular/template": "^17.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.6.2",
+    "zone.js": "~0.14.4",
+    "@angular-devkit/build-angular": "^17.3.0",
+    "@angular-eslint/builder": "17.2.1",
+    "@angular-eslint/eslint-plugin": "17.2.1",
+    "@angular-eslint/eslint-plugin-template": "17.2.1",
+    "@angular-eslint/schematics": "17.2.1",
+    "@angular-eslint/template-parser": "17.2.1",
+    "@angular/cli": "^17.3.0",
+    "@angular/compiler-cli": "^17.3.0",
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-simple-import-sort": "^12.0.0",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "jest": "^29.4.1",
+    "jest-environment-jsdom": "29.7.0",
+    "jest-preset-angular": "14.0.3",
+    "prettier": "^3.2.5",
+    "ts-jest": "29.1.0",
+    "typescript": "5.3.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "8602172244393094987"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "16372396851357728268"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "3618126417571523135"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "7407628009146151605"
+      },
+      {
+        "file": "angular.json",
+        "hash": "6132354661662579777"
+      },
+      {
+        "file": "exercises/images/cancelled-requests.png",
+        "hash": "6378305700833474553"
+      },
+      {
+        "file": "exercises/images/coalesce-with-debouncing.png",
+        "hash": "12588507555134624231"
+      },
+      {
+        "file": "exercises/images/coalesce-with-duration-complete.png",
+        "hash": "10528259974551806025"
+      },
+      {
+        "file": "exercises/images/coalesce-with.png",
+        "hash": "10439977734604618423"
+      },
+      {
+        "file": "exercises/images/contextual-template-states.png",
+        "hash": "7972546345612111671"
+      },
+      {
+        "file": "exercises/images/cypress-choose-env.png",
+        "hash": "10136120715267847786"
+      },
+      {
+        "file": "exercises/images/cypress-dashboard-empty.png",
+        "hash": "5569478720818136279"
+      },
+      {
+        "file": "exercises/images/event-loop-exercise.png",
+        "hash": "7406795998350847452"
+      },
+      {
+        "file": "exercises/images/move-the-cart.gif",
+        "hash": "11162362599874099966"
+      },
+      {
+        "file": "exercises/images/requests-not-cancelled.png",
+        "hash": "2449149226740208819"
+      },
+      {
+        "file": "exercises/performance/change-detection - OnPush.md",
+        "hash": "2037035107390365421"
+      },
+      {
+        "file": "exercises/performance/change-detection - signals.md",
+        "hash": "6523119099689999096"
+      },
+      {
+        "file": "exercises/performance/change-detection - trackBy.md",
+        "hash": "11648921058717579579"
+      },
+      {
+        "file": "exercises/performance/change-detection - zoneless.md",
+        "hash": "563650926197292577"
+      },
+      {
+        "file": "exercises/performance/computed.md",
+        "hash": "10486320934747324266"
+      },
+      {
+        "file": "exercises/performance/css-performance - containment.md",
+        "hash": "582585398301787339"
+      },
+      {
+        "file": "exercises/performance/dom-access - forced reflow.md",
+        "hash": "12470296381050567814"
+      },
+      {
+        "file": "exercises/performance/dom-access - layout thrashing.md",
+        "hash": "12926608141908097815"
+      },
+      {
+        "file": "exercises/performance/effect.md",
+        "hash": "12579090031112062493"
+      },
+      {
+        "file": "exercises/performance/event-loop.md",
+        "hash": "12968618047554209313"
+      },
+      {
+        "file": "exercises/performance/images/cancelled-requests.png",
+        "hash": "6378305700833474553"
+      },
+      {
+        "file": "exercises/performance/images/change-detection/.gitkeep",
+        "hash": "15036214574332298676"
+      },
+      {
+        "file": "exercises/performance/images/change-detection/dirty-checks-in-use.PNG",
+        "hash": "3916793092791707936"
+      },
+      {
+        "file": "exercises/performance/images/change-detection/movie-search-control.png",
+        "hash": "9394677580899418188"
+      },
+      {
+        "file": "exercises/performance/images/coalesce-with-debouncing.png",
+        "hash": "12588507555134624231"
+      },
+      {
+        "file": "exercises/performance/images/coalesce-with-duration-complete.png",
+        "hash": "10528259974551806025"
+      },
+      {
+        "file": "exercises/performance/images/coalesce-with.png",
+        "hash": "10439977734604618423"
+      },
+      {
+        "file": "exercises/performance/images/contextual-template-states.png",
+        "hash": "7972546345612111671"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/contain-visibility-detached-from-rendering.png",
+        "hash": "15579298224181484837"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/content-visibility-initial-comparison.png",
+        "hash": "12090251313773054288"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/content-visibility-initial-large.png",
+        "hash": "5272477266693142846"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/content-visibility-initial-small.png",
+        "hash": "15469733081932230674"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/search-bar-layout-contained.png",
+        "hash": "5144759543589960787"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/searchbar-animation.gif",
+        "hash": "12703288872745724128"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/side-drawer-layout-contained.png",
+        "hash": "14873231713642892241"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/sidebar-layout.gif",
+        "hash": "11359913939295752106"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/sidebar-layout.png",
+        "hash": "14498914275991571535"
+      },
+      {
+        "file": "exercises/performance/images/css-contain/ui-toolbar-layout.png",
+        "hash": "12091113631723324696"
+      },
+      {
+        "file": "exercises/performance/images/cypress-choose-env.png",
+        "hash": "10136120715267847786"
+      },
+      {
+        "file": "exercises/performance/images/cypress-dashboard-empty.png",
+        "hash": "5569478720818136279"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/compute-intersections.png",
+        "hash": "5319804629972023366"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/forced-reflow.png",
+        "hash": "2073970111219439062"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/getBoundingClientRect.png",
+        "hash": "5424477987972252839"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/long-task-bar-animation.png",
+        "hash": "943877078411792642"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/no-forced-reflow.png",
+        "hash": "14198151974631329429"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/scroll.gif",
+        "hash": "10525668992606948025"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/scrollHeight.png",
+        "hash": "11304526230348719040"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/scrollTop.png",
+        "hash": "6806670417451688045"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/sidebar-animation-layout-shift.png",
+        "hash": "7530924474115223816"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/slide-animation-layout.png",
+        "hash": "2894836930382197998"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/slide-animation-no-layout-shift.png",
+        "hash": "8414785142600859296"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/slide-animation-no-layout.png",
+        "hash": "13287347791725201755"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/slide-animation.gif",
+        "hash": "2175127311849505011"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/start-recording.png",
+        "hash": "11399863688458910248"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/superfast-compositor-only.png",
+        "hash": "2547795283554084074"
+      },
+      {
+        "file": "exercises/performance/images/dom-access/tilt-animation.gif",
+        "hash": "8879675820468892319"
+      },
+      {
+        "file": "exercises/performance/images/event-loop-exercise.png",
+        "hash": "7406795998350847452"
+      },
+      {
+        "file": "exercises/performance/images/event-loop/event-loop-exercise.png",
+        "hash": "7406795998350847452"
+      },
+      {
+        "file": "exercises/performance/images/image-loading-optimization/initial-image-loading-state.png",
+        "hash": "13602211348594145164"
+      },
+      {
+        "file": "exercises/performance/images/image-loading-optimization/lazy-image-loading-state.png",
+        "hash": "16376919543416699486"
+      },
+      {
+        "file": "exercises/performance/images/image-loading-optimization/loading-image-prio-loading.png",
+        "hash": "17276287593359456964"
+      },
+      {
+        "file": "exercises/performance/images/move-the-cart.gif",
+        "hash": "11162362599874099966"
+      },
+      {
+        "file": "exercises/performance/images/network/cancelled-requests.png",
+        "hash": "6378305700833474553"
+      },
+      {
+        "file": "exercises/performance/images/network/genre-request-initializer.png",
+        "hash": "16049168637183794326"
+      },
+      {
+        "file": "exercises/performance/images/network/genre-request-template.png",
+        "hash": "11917850169526249851"
+      },
+      {
+        "file": "exercises/performance/images/network/prefetch-no-poster-available.png",
+        "hash": "12500721866986203581"
+      },
+      {
+        "file": "exercises/performance/images/network/preload-logo-and-launcher.png",
+        "hash": "4549552066578179714"
+      },
+      {
+        "file": "exercises/performance/images/network/requests-not-cancelled.png",
+        "hash": "2449149226740208819"
+      },
+      {
+        "file": "exercises/performance/images/ng-optimize-image/ng-image-prio-warning.png",
+        "hash": "5518113528674141154"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/import-recording.png",
+        "hash": "16427291034906301666"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/initial-loading-screen.png",
+        "hash": "8208056241146774624"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/movie-list-component-bootstrap.png",
+        "hash": "5939170963931276766"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/movie-list-data.png",
+        "hash": "11070809715308190799"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/multiple-recordings.png",
+        "hash": "11443644614633787436"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/record-and-reload.png",
+        "hash": "13293916339753967639"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/save-recording.png",
+        "hash": "12196508583718539439"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/screenshot-area.png",
+        "hash": "9622021958173044263"
+      },
+      {
+        "file": "exercises/performance/images/performance-tab/summary.png",
+        "hash": "10561358237338982724"
+      },
+      {
+        "file": "exercises/performance/images/requests-not-cancelled.png",
+        "hash": "2449149226740208819"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/activate-cpu-throttle.png",
+        "hash": "8778374495999394062"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/app-shell-chunk.png",
+        "hash": "9435028590226310286"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/long-task-bootstrap.png",
+        "hash": "10000689919602061527"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/ng-for-chunk.png",
+        "hash": "7797973510393786280"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/open-perfomance-tab.png",
+        "hash": "6854114015705765287"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/rx-for-chunking.png",
+        "hash": "17998577628659244690"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-chunk-work/start-profiling-and-reload.png",
+        "hash": "17549585119720911471"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-prioritize/chunked-example.png",
+        "hash": "4011202974778416340"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-prioritize/initial-state-long-task.png",
+        "hash": "15493921436031877120"
+      },
+      {
+        "file": "exercises/performance/images/scheduling-prioritize/start-recording.png",
+        "hash": "11399863688458910248"
+      },
+      {
+        "file": "exercises/performance/network-optimizations.md",
+        "hash": "10989789645827289842"
+      },
+      {
+        "file": "exercises/performance/ng-optimized-images.md",
+        "hash": "14462939292211409803"
+      },
+      {
+        "file": "exercises/performance/performance-tab-flame-charts.md",
+        "hash": "7434149997220798714"
+      },
+      {
+        "file": "exercises/performance/scheduling-chunk-work.md",
+        "hash": "3832201513371741754"
+      },
+      {
+        "file": "exercises/performance/signal-introduction.md",
+        "hash": "18275674737812105338"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "6771362013785844147"
+      },
+      {
+        "file": "package.json",
+        "hash": "12445061896558504479"
+      },
+      {
+        "file": "setup-jest.ts",
+        "hash": "17341233417392774379"
+      },
+      {
+        "file": "src/app/app-shell/app-shell.component.html",
+        "hash": "869624663631651304"
+      },
+      {
+        "file": "src/app/app-shell/app-shell.component.scss",
+        "hash": "5230052688777514762"
+      },
+      {
+        "file": "src/app/app-shell/app-shell.component.ts",
+        "hash": "18255714407802907291"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "12611011549038650844"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "2901561389932247677"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "6028067404879053502"
+      },
+      {
+        "file": "src/app/app.routes.ts",
+        "hash": "17952464455694524933"
+      },
+      {
+        "file": "src/app/data/movies-mock.json",
+        "hash": "4153784264009222517"
+      },
+      {
+        "file": "src/app/movie/movie-card/movie-card.component.html",
+        "hash": "13491205368478577021"
+      },
+      {
+        "file": "src/app/movie/movie-card/movie-card.component.scss",
+        "hash": "18251073929545681121"
+      },
+      {
+        "file": "src/app/movie/movie-card/movie-card.component.ts",
+        "hash": "1845705569932179720"
+      },
+      {
+        "file": "src/app/movie/movie-detail-page/movie-detail-page.component.html",
+        "hash": "13974355534555111121"
+      },
+      {
+        "file": "src/app/movie/movie-detail-page/movie-detail-page.component.scss",
+        "hash": "8686906004205040004"
+      },
+      {
+        "file": "src/app/movie/movie-detail-page/movie-detail-page.component.ts",
+        "hash": "11330143509017725953"
+      },
+      {
+        "file": "src/app/movie/movie-detail-page/movie-detail-page.module.ts",
+        "hash": "7760693499504236208"
+      },
+      {
+        "file": "src/app/movie/movie-image.pipe.ts",
+        "hash": "4850353387262316702"
+      },
+      {
+        "file": "src/app/movie/movie-list-page/movie-list-page.component.html",
+        "hash": "5038539611541483648"
+      },
+      {
+        "file": "src/app/movie/movie-list-page/movie-list-page.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/movie/movie-list-page/movie-list-page.component.ts",
+        "hash": "7600708766295498879"
+      },
+      {
+        "file": "src/app/movie/movie-list/movie-list.component.html",
+        "hash": "9734457484612580897"
+      },
+      {
+        "file": "src/app/movie/movie-list/movie-list.component.scss",
+        "hash": "14011194554996307266"
+      },
+      {
+        "file": "src/app/movie/movie-list/movie-list.component.ts",
+        "hash": "17440767258122435437"
+      },
+      {
+        "file": "src/app/movie/movie-model.ts",
+        "hash": "8266771840390952725"
+      },
+      {
+        "file": "src/app/movie/movie-search-control/movie-search-control.component.html",
+        "hash": "11154888275630570814"
+      },
+      {
+        "file": "src/app/movie/movie-search-control/movie-search-control.component.scss",
+        "hash": "12718300095063255017"
+      },
+      {
+        "file": "src/app/movie/movie-search-control/movie-search-control.component.ts",
+        "hash": "8894836609498134184"
+      },
+      {
+        "file": "src/app/movie/movie-search-page/movie-search-page.component.html",
+        "hash": "6511290590780363084"
+      },
+      {
+        "file": "src/app/movie/movie-search-page/movie-search-page.component.scss",
+        "hash": "1462320124297967171"
+      },
+      {
+        "file": "src/app/movie/movie-search-page/movie-search-page.component.ts",
+        "hash": "8460606642437806885"
+      },
+      {
+        "file": "src/app/movie/movie.service.ts",
+        "hash": "8062462881512060135"
+      },
+      {
+        "file": "src/app/movie/my-movie-list/my-movie-list.component.html",
+        "hash": "250033963790657938"
+      },
+      {
+        "file": "src/app/movie/my-movie-list/my-movie-list.component.scss",
+        "hash": "17270889021048726013"
+      },
+      {
+        "file": "src/app/movie/my-movie-list/my-movie-list.component.ts",
+        "hash": "2291672433234455739"
+      },
+      {
+        "file": "src/app/movie/my-movie-list/my-movie-list.module.ts",
+        "hash": "3179159154068094131"
+      },
+      {
+        "file": "src/app/not-found-page/not-found-page.component.html",
+        "hash": "6672705956624874469"
+      },
+      {
+        "file": "src/app/not-found-page/not-found-page.component.scss",
+        "hash": "9700156143330776367"
+      },
+      {
+        "file": "src/app/not-found-page/not-found-page.component.ts",
+        "hash": "17707690257977868534"
+      },
+      {
+        "file": "src/app/read-access.interceptor.ts",
+        "hash": "16350115177509028358"
+      },
+      {
+        "file": "src/app/shared/cdk/context/context.interface.ts",
+        "hash": "10125912448186575562"
+      },
+      {
+        "file": "src/app/shared/cdk/element-visibility/element-visibility.directive.ts",
+        "hash": "605432277781840487"
+      },
+      {
+        "file": "src/app/shared/cdk/element-visibility/observe-element-visibility.ts",
+        "hash": "490656468170897779"
+      },
+      {
+        "file": "src/app/shared/cdk/lazy/lazy.directive.ts",
+        "hash": "3118285995638844315"
+      },
+      {
+        "file": "src/app/shared/cdk/loading/loading-state.interface.ts",
+        "hash": "1113756014850421474"
+      },
+      {
+        "file": "src/app/shared/cdk/loading/withLoadingEmissions.ts",
+        "hash": "8793349991313700112"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/coalesceWith.spec.ts",
+        "hash": "323347066079514400"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/coalesceWith.ts",
+        "hash": "6232790161844615951"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/coalescingManager.ts",
+        "hash": "8796464434334926731"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/marbles/jest.observable-matcher.ts",
+        "hash": "1905934675502441394"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/marbles/observableMatcher.ts",
+        "hash": "5617786214328471483"
+      },
+      {
+        "file": "src/app/shared/coalesceWith/model.ts",
+        "hash": "8251793101045049178"
+      },
+      {
+        "file": "src/app/shared/dirty-checks/dirty-checks.component.ts",
+        "hash": "10897678728943121647"
+      },
+      {
+        "file": "src/app/shared/model/configuration.model.ts",
+        "hash": "8994686212186552006"
+      },
+      {
+        "file": "src/app/shared/model/guest-session.interface.ts",
+        "hash": "2104234693014534484"
+      },
+      {
+        "file": "src/app/shared/model/list.model.ts",
+        "hash": "10947639923622643639"
+      },
+      {
+        "file": "src/app/shared/model/movie-credits.model.ts",
+        "hash": "4262795709297724924"
+      },
+      {
+        "file": "src/app/shared/model/movie-details.model.ts",
+        "hash": "4592067353328772928"
+      },
+      {
+        "file": "src/app/shared/model/movie-genre.model.ts",
+        "hash": "12911230333032366802"
+      },
+      {
+        "file": "src/app/shared/model/movie.model.ts",
+        "hash": "639011600062081068"
+      },
+      {
+        "file": "src/app/shared/model/person.model.ts",
+        "hash": "8646790510435064829"
+      },
+      {
+        "file": "src/app/shared/rxa-custom/input-type.typing.ts",
+        "hash": "18131588389631285212"
+      },
+      {
+        "file": "src/app/shared/utils/coerceObservable.ts",
+        "hash": "18245123035495703854"
+      },
+      {
+        "file": "src/app/shared/utils/css-variables.ts",
+        "hash": "10942644901216268062"
+      },
+      {
+        "file": "src/app/shared/utils/optimized-fetch.ts",
+        "hash": "7932933084547801632"
+      },
+      {
+        "file": "src/app/shared/utils/track-by.ts",
+        "hash": "13520977622248915934"
+      },
+      {
+        "file": "src/app/shared/utils/video/safe-video.interface.ts",
+        "hash": "13985837115938209592"
+      },
+      {
+        "file": "src/app/shared/utils/video/video-tag.transform.ts",
+        "hash": "11068156984210428099"
+      },
+      {
+        "file": "src/app/shared/utils/video/video.interface.ts",
+        "hash": "15522191192804493222"
+      },
+      {
+        "file": "src/app/tilt/tilt.directive.spec.ts",
+        "hash": "15583202217498301335"
+      },
+      {
+        "file": "src/app/tilt/tilt.directive.ts",
+        "hash": "1679879785504190837"
+      },
+      {
+        "file": "src/app/ui/.eslintrc.json",
+        "hash": "5475842367245164052"
+      },
+      {
+        "file": "src/app/ui/component/aspect-ratio/aspect-ratio.scss",
+        "hash": "13300704932425485778"
+      },
+      {
+        "file": "src/app/ui/component/backdrop/backdrop.component.scss",
+        "hash": "7722800847778432510"
+      },
+      {
+        "file": "src/app/ui/component/backdrop/backdrop.component.ts",
+        "hash": "1751757112828105467"
+      },
+      {
+        "file": "src/app/ui/component/button/_button.scss",
+        "hash": "15464955433128974815"
+      },
+      {
+        "file": "src/app/ui/component/dark-mode-toggle/dark-mode-toggle.component.scss",
+        "hash": "6794953938470852659"
+      },
+      {
+        "file": "src/app/ui/component/dark-mode-toggle/dark-mode-toggle.component.ts",
+        "hash": "15940002500991943348"
+      },
+      {
+        "file": "src/app/ui/component/detail-grid/detail-grid.component.scss",
+        "hash": "1671627212408148750"
+      },
+      {
+        "file": "src/app/ui/component/detail-grid/detail-grid.component.ts",
+        "hash": "18236431372495585334"
+      },
+      {
+        "file": "src/app/ui/component/dialog/dialog.component.scss",
+        "hash": "10111106019409491596"
+      },
+      {
+        "file": "src/app/ui/component/form-control/form-comtrol.component.scss",
+        "hash": "11656593870007185963"
+      },
+      {
+        "file": "src/app/ui/component/form-control/form-control.component.ts",
+        "hash": "2444696893376434036"
+      },
+      {
+        "file": "src/app/ui/component/grid-list/grid-list.component.scss",
+        "hash": "16961049630368953582"
+      },
+      {
+        "file": "src/app/ui/component/grid-list/grid-list.component.ts",
+        "hash": "3519382039423230567"
+      },
+      {
+        "file": "src/app/ui/component/hamburger-button/hamburger-button.component.html",
+        "hash": "17118018898219694636"
+      },
+      {
+        "file": "src/app/ui/component/hamburger-button/hamburger-button.component.scss",
+        "hash": "14683123314632683716"
+      },
+      {
+        "file": "src/app/ui/component/hamburger-button/hamburger-button.component.ts",
+        "hash": "7390653390824956928"
+      },
+      {
+        "file": "src/app/ui/component/loader/loader.scss",
+        "hash": "11116125701874039851"
+      },
+      {
+        "file": "src/app/ui/component/search-bar/search-bar.component.scss",
+        "hash": "11093329721531789436"
+      },
+      {
+        "file": "src/app/ui/component/search-bar/search-bar.component.ts",
+        "hash": "15850280542629184109"
+      },
+      {
+        "file": "src/app/ui/component/side-drawer/side-drawer.component.scss",
+        "hash": "7927458491906316402"
+      },
+      {
+        "file": "src/app/ui/component/side-drawer/side-drawer.component.ts",
+        "hash": "3865600328233822935"
+      },
+      {
+        "file": "src/app/ui/component/tabs/_tabs.scss",
+        "hash": "14184467643303559762"
+      },
+      {
+        "file": "src/app/ui/component/tooltip/_tooltip.scss",
+        "hash": "5343000654571912183"
+      },
+      {
+        "file": "src/app/ui/pattern/star-rating/star-rating.component.scss",
+        "hash": "16537456063510698682"
+      },
+      {
+        "file": "src/app/ui/pattern/star-rating/star-rating.component.ts",
+        "hash": "18404029181904931009"
+      },
+      {
+        "file": "src/app/ui/token/_dark-light-mode.scss",
+        "hash": "18028434430485209299"
+      },
+      {
+        "file": "src/app/ui/token/_gradient.scss",
+        "hash": "6336435756144348506"
+      },
+      {
+        "file": "src/app/ui/token/_typography.scss",
+        "hash": "7854407209861252218"
+      },
+      {
+        "file": "src/app/ui/token/mixins/_flex.scss",
+        "hash": "12638549408271308286"
+      },
+      {
+        "file": "src/app/ui/token/mixins/media.scss",
+        "hash": "11300904567715358769"
+      },
+      {
+        "file": "src/app/ui/token/variables/_animations.scss",
+        "hash": "3032577104478032038"
+      },
+      {
+        "file": "src/app/ui/token/variables/_aspectRatio.scss",
+        "hash": "14955274920742380721"
+      },
+      {
+        "file": "src/app/ui/token/variables/_borderRadius.scss",
+        "hash": "12116948421066754623"
+      },
+      {
+        "file": "src/app/ui/token/variables/_colors.scss",
+        "hash": "13739871068800878409"
+      },
+      {
+        "file": "src/app/ui/token/variables/_fontSize.scss",
+        "hash": "4559424182341666524"
+      },
+      {
+        "file": "src/app/ui/token/variables/_media.scss",
+        "hash": "5147929462325415144"
+      },
+      {
+        "file": "src/app/ui/token/variables/_shadow.scss",
+        "hash": "9851360244549015542"
+      },
+      {
+        "file": "src/app/ui/token/variables/_zIndex.scss",
+        "hash": "14214271487200498986"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/icons/android-chrome-192x192.png",
+        "hash": "11817945142978849315"
+      },
+      {
+        "file": "src/assets/icons/android-chrome-384x384.png",
+        "hash": "4975242529349153005"
+      },
+      {
+        "file": "src/assets/icons/android-chrome-512x512.png",
+        "hash": "2578593828837710938"
+      },
+      {
+        "file": "src/assets/icons/apple-touch-icon.png",
+        "hash": "8415861025407503737"
+      },
+      {
+        "file": "src/assets/icons/browserconfig.xml",
+        "hash": "10264732574528189190"
+      },
+      {
+        "file": "src/assets/icons/favicon-16x16.png",
+        "hash": "11316459815483346193"
+      },
+      {
+        "file": "src/assets/icons/favicon-32x32.png",
+        "hash": "6441970168721874778"
+      },
+      {
+        "file": "src/assets/icons/favicon.ico",
+        "hash": "1156788842965212164"
+      },
+      {
+        "file": "src/assets/icons/icon-128x128.png",
+        "hash": "10744121938842754655"
+      },
+      {
+        "file": "src/assets/icons/icon-144x144.png",
+        "hash": "6047735668323804535"
+      },
+      {
+        "file": "src/assets/icons/icon-152x152.png",
+        "hash": "4921212892574698316"
+      },
+      {
+        "file": "src/assets/icons/icon-192x192.png",
+        "hash": "12824737385881390904"
+      },
+      {
+        "file": "src/assets/icons/icon-384x384.png",
+        "hash": "2967189665296909131"
+      },
+      {
+        "file": "src/assets/icons/icon-512x512.png",
+        "hash": "5049794496043415500"
+      },
+      {
+        "file": "src/assets/icons/icon-72x72.png",
+        "hash": "9648134400647315633"
+      },
+      {
+        "file": "src/assets/icons/icon-96x96.png",
+        "hash": "3809301087591037102"
+      },
+      {
+        "file": "src/assets/icons/icone.png",
+        "hash": "5752168241558175099"
+      },
+      {
+        "file": "src/assets/icons/light-apple-touch-icon.png",
+        "hash": "9339711613975704114"
+      },
+      {
+        "file": "src/assets/icons/mstile-150x150.png",
+        "hash": "18389923944636369331"
+      },
+      {
+        "file": "src/assets/icons/safari-pinned-tab.svg",
+        "hash": "8253980595621287980"
+      },
+      {
+        "file": "src/assets/icons/site.webmanifest",
+        "hash": "9619255407512474384"
+      },
+      {
+        "file": "src/assets/images/logo.svg",
+        "hash": "16947420850959666354"
+      },
+      {
+        "file": "src/assets/images/no_poster_available.jpg",
+        "hash": "4009423654161015591"
+      },
+      {
+        "file": "src/assets/images/nothing.svg",
+        "hash": "4129041146497032638"
+      },
+      {
+        "file": "src/assets/images/tmdb.svg",
+        "hash": "8869486197283482483"
+      },
+      {
+        "file": "src/assets/images/tmdbgreen.svg",
+        "hash": "17637910301617293989"
+      },
+      {
+        "file": "src/assets/svg-icons/account.svg",
+        "hash": "779549926075083910"
+      },
+      {
+        "file": "src/assets/svg-icons/back.svg",
+        "hash": "2414772613325659652"
+      },
+      {
+        "file": "src/assets/svg-icons/delete.svg",
+        "hash": "2216890916697984270"
+      },
+      {
+        "file": "src/assets/svg-icons/error.svg",
+        "hash": "8304282688819807680"
+      },
+      {
+        "file": "src/assets/svg-icons/genre.svg",
+        "hash": "12534543176424029478"
+      },
+      {
+        "file": "src/assets/svg-icons/imdb.svg",
+        "hash": "10405195791055107175"
+      },
+      {
+        "file": "src/assets/svg-icons/play.svg",
+        "hash": "4252536786349843242"
+      },
+      {
+        "file": "src/assets/svg-icons/popular.svg",
+        "hash": "3658011996815722833"
+      },
+      {
+        "file": "src/assets/svg-icons/sad.svg",
+        "hash": "2488091454893157373"
+      },
+      {
+        "file": "src/assets/svg-icons/search.svg",
+        "hash": "7890138719382214307"
+      },
+      {
+        "file": "src/assets/svg-icons/top_rated.svg",
+        "hash": "14114495868626650659"
+      },
+      {
+        "file": "src/assets/svg-icons/upcoming.svg",
+        "hash": "17296612976543308805"
+      },
+      {
+        "file": "src/assets/svg-icons/website.svg",
+        "hash": "9806918095200534195"
+      },
+      {
+        "file": "src/environments/.gitignore",
+        "hash": "12901140429840473276"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "7532784315905266908"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "1156788842965212164"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "9127924993587547128"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "2101694235454666620"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "15074511822689819725"
+      },
+      {
+        "file": "src/styles/_normalize.scss",
+        "hash": "16125011986954145603"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "13119632651406065538"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16991038211522474346"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      }
+    ]
+  }
+}
