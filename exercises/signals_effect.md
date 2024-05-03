@@ -46,13 +46,31 @@ As we don't need the `setSearchValue` method anymore, let's remove it form the c
 <!-- src/app/app-shell/app-shell.component.html -->
 
 <!-- use searchValue directly -->
-<ui-search-bar
-  (ngModelChange)="searchValue.set($event)"
+<ui-search-bar 
+  [ngModel]="searchValue()" 
+  (ngModelChange)="searchValue.set($event)" 
 ></ui-search-bar>
 ```
 
 </details>
 
+## Bonus: Two-way bindings with signals
+
+You can also use two-way bindings with the `searchValue` signal. This binging keeps the values in sync and simplifies the code.
+
+<details>
+  <summary>AppShellComponent Template</summary>
+
+```html
+<!-- src/app/app-shell/app-shell.component.html -->
+
+<!-- pass the signal itself not its value -->
+<ui-search-bar 
+  [(ngModel)]="searchValue"
+></ui-search-bar>
+```
+
+</details>
 
 ## Bonus: cache latest movie-list response in local storage
 

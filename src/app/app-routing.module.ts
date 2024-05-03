@@ -1,6 +1,7 @@
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
 
-export const routes: Routes = [
+const routes: Routes = [
   {
     path: 'list/:category',
     loadComponent: () =>
@@ -49,3 +50,14 @@ export const routes: Routes = [
       ),
   },
 ];
+
+@NgModule({
+  declarations: [],
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: 'top',
+    }),
+  ],
+  exports: [RouterModule],
+})
+export class AppRoutingModule {}

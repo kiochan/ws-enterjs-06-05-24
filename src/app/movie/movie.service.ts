@@ -26,7 +26,7 @@ export class MovieService {
 
   getMoviesByGenre(
     genre: TMDBMovieGenreModel['id'],
-    page = 1,
+    page?: string,
     sortBy = 'popularity.desc'
   ): Observable<TMDBMovieModel[]> {
     return this.httpClient
@@ -63,7 +63,7 @@ export class MovieService {
 
   getMovieList(
     category: string,
-    page: number = 1,
+    page?: string,
     sortBy = 'popularity.desc'
   ): Observable<TMDBMovieModel[]> {
     const { tmdbBaseUrl: baseUrl } = environment;
