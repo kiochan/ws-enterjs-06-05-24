@@ -33,6 +33,7 @@ component decorator.
   templateUrl: './movie-card.component.html',
   styleUrls: ['./movie-card.component.scss'],
   hostDirectives: [TiltDirective],
+  standalone: true
 })
 export class MovieCardComponent {}
 
@@ -60,21 +61,6 @@ time in the template.
 
 You can also now safely remove the `import` in the `MovieCardComponent`, as the `hostDirective` configuration
 will automatically import the `TiltDirective` without having it being specified in any module.
-
-<details>
-  <summary>Adjust TiltDirective import</summary>
-
-```ts
-// movie.module.ts
-
-@NgModule({
-  declarations: [MovieCardComponent, MovieListComponent],
-  imports: [CommonModule, StarRatingModule, MovieImagePipe /* remove TiltDirective */],
-  exports: [MovieListComponent, MovieImagePipe],
-})
-export class MovieModule {}
-```
-</details>
 
 Serve the application, you should see how the `TiltDirective` is still working. The style changes
 are not animated anymore, though. Let's move on to the next step and fix that as well!

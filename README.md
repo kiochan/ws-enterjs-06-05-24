@@ -32,21 +32,17 @@ npm run start
 
 ## Exercises
 
-**Performance**
-* [Modern Angular - Standalone](./exercises/modern-angular_standalone-components.md)
-* [Modern Angular - new Providers](./exercises/modern-angular_new-providers.md)
-* [Modern Angular - inject](./exercises/modern-angular_inject.md)
-* [Modern Angular - Directive Composition](./exercises/modern-angular_hostDirectives.md)
-* [Change Detection - OnPush](./exercises/change-detection_OnPush.md)
-* [Change Detection - signals](./exercises/change-detection_signals.md)
-* [Change Detection - zoneless](./exercises/change-detection_zoneless.md)
+* [Modern Angular - Standalone](exercises/modern-angular_standalone-components.md)
+* [Modern Angular - new Providers](exercises/modern-angular_new-providers.md)
+* [Modern Angular - inject](exercises/modern-angular_inject.md)
+* [Modern Angular - Directive Composition](exercises/modern-angular_hostDirectives.md)
 * [Signals - Introduction](exercises/signals_introduction.md)
 * [Signals - Computed](exercises/signals_computed.md)
 * [Signals - Effect](exercises/signals_effect.md)
+* [Change Detection - OnPush](exercises/change-detection_OnPush.md)
+* [Change Detection - signals](exercises/change-detection_signals.md)
+* [Change Detection - zoneless](exercises/change-detection_zoneless.md)
+* [Change Detection - trackby](exercises/change-detection_trackBy.md)
 * [New Control Flow](exercises/new-control-flow.md)
 * [Defer Block](exercises/defer.md)
 * [Image Optimizations](exercises/ng-optimized-images.md)
-
-
-// TODO pick modern angular ecerises from https://github.com/push-based/workshop-exercises/tree/main/angular-advanced
-// Add singal from https://github.com/push-based/workshop-exercises/tree/main/modern%20angular%20-%20signals
