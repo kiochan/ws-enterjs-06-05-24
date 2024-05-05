@@ -43,6 +43,7 @@ npm run start
 * [Change Detection - OnPush](exercises/change-detection_OnPush.md)
 * [Change Detection - signals](exercises/change-detection_signals.md)
 * [Change Detection - zoneless](exercises/change-detection_zoneless.md)
+* [Change Detection - trackby](exercises/change-detection_trackBy.md)
 * [New Control Flow](exercises/new-control-flow.md)
 * [Defer Block](exercises/defer.md)
 * [Image Optimizations](exercises/ng-optimized-images.md)
