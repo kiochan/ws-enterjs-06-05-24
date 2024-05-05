@@ -32,7 +32,6 @@ npm run start
 
 ## Exercises
 
-**Performance**
 * [Modern Angular - Standalone](exercises/modern-angular_standalone-components.md)
 * [Modern Angular - new Providers](exercises/modern-angular_new-providers.md)
 * [Modern Angular - inject](exercises/modern-angular_inject.md)
