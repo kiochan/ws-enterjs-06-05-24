@@ -100,5 +100,3 @@ Also apply changes to the template. Adopt `ui-search-bar` to use signals. Keep i
 ```
 
 </details>
-
-

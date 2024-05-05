@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ws-perf-ng-conf": {
+    "ws-enterjs": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -15,14 +15,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/ws-enterjs-06-05-24",
             "index": "src/index.html",
-            "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "main": "src/main.ts",
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -32,7 +30,8 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -62,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ws-perf-ng-conf:build:production"
+              "buildTarget": "ws-enterjs:build:production"
             },
             "development": {
-              "buildTarget": "ws-perf-ng-conf:build:development"
+              "buildTarget": "ws-enterjs:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -73,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "ws-perf-ng-conf:build"
+            "buildTarget": "ws-enterjs:build"
           }
         },
         "test": {

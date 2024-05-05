@@ -45,6 +45,10 @@ Also apply changes to the template
 >
 ```
 
+// @TODO for this exercise to work this needs to use *ngFor instead of @for
+
+// This is a terrible example we should simply use @empty
+
 </details>
 
 Now create the `genresLoading` computed that should be true as long there are no genres loaded.

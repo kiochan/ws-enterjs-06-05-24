@@ -103,7 +103,9 @@ template: `
 
 </details>
 
-![in-usage](./images/change-detection/dirty-checks-in-use.PNG)
+// @TODO This image shows all components with the dirty check component it should only show it on the AppComponent 
+
+![in-usage](images/change-detection/dirty-checks-in-use.PNG)
 
 ## Evaluate initial state of the application
 
@@ -147,6 +149,8 @@ Let's do one simple but significant change and make our `AppComponent` use `Chan
 ```
 
 </details>
+
+// @TODO in this example the initial render does not happen when using on push
 
 Serve the application, note how the counter will still increase on any interaction, but the amount it increases is
 way lower than before. This is because the Component now only re-renders when being on a dirty-path.
@@ -217,4 +221,3 @@ You can generate components with `OnPush` by default if you add next content to 
 ```
 
 </details>
-

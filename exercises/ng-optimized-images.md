@@ -26,7 +26,7 @@ Go to `movie-card.component.html` and modify the img tag to contain following ch
 
 Now if you open the browser console you should see that we are getting an error message.
 
-![img.png](images/ng-optimize-image/ng-image-prio-warning.png)
+![img.png](performance/images/ng-optimize-image/ng-image-prio-warning.png)
 
 This error is because we did not tell NgOptimizedImage if it should prioritize the image or not. 
 To fix this, add the `priority` attribute to the `img` for the two first images.  

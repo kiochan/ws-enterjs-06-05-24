@@ -8,7 +8,7 @@ we get with signal components, but we are close to it already.
 We are going to slightly adjust the `TiltDirective` in order to make use of the new signal based
 change detection.
 
-Open the `TiltDirective` and..
+Open the `TiltDirective` and:
 
 **1. Transform `rotation` into a signal**
 
