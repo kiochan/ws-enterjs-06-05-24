@@ -24,7 +24,7 @@ Don't forget to also pass an `initialValue` in the `toSignal` because we are wor
 
 import { toSignal } from '@angular/core/rxjs-interop';
 
-readonly genres = toSignal(this.movieService.getGenres(), { initialValue: [] });
+readonly genres = toSignal(this.movieService.getGenres(), { initialValue: null });
 // ...
 ```
 
@@ -45,10 +45,6 @@ Also apply changes to the template
 >
 ```
 
-// @TODO for this exercise to work this needs to use *ngFor instead of @for
-
-// This is a terrible example we should simply use @empty
-
 </details>
 
 Now create the `genresLoading` computed that should be true as long there are no genres loaded.
@@ -62,8 +58,8 @@ Now create the `genresLoading` computed that should be true as long there are no
 import { computed } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 
-genres = toSignal(this.movieService.getGenres());
-genresLoading = computed(() => this.genres().length === 0);
+genres = toSignal(this.movieService.getGenres(), { initialValue: null });
+genresLoading = computed(() => this.genres() === null);
 ```
 
 </details>
